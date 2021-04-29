@@ -64,6 +64,5 @@ std::vector<double> parMulti(const std::vector<double> &A, const std::vector<dou
                 }
             }
         });
-        
     return C;
 }
