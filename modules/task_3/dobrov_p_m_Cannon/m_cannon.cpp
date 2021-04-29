@@ -1,5 +1,5 @@
 //  Copyright 2021 Dobrov Pavel
-#include "../../../modules/task_2/dobrov_p_m_Cannon/m_cannon.h"
+#include "../../../modules/task_3/dobrov_p_m_Cannon/m_cannon.h"
 #include <tbb/parallel_for.h>
 #include <tbb/blocked_range2d.h>
 #include <vector>
@@ -64,9 +64,6 @@ std::vector<double> parMulti(const std::vector<double> &A, const std::vector<dou
                 }
             }
         });
-
-
-    
-
+        
     return C;
 }
